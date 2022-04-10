@@ -1,0 +1,120 @@
+.activity {
+    font-family: "Raleway";
+    margin-top: 80PX;
+
+  }
+  .activity__upperText{
+    display: flex;
+    align-items: center;  
+    flex-direction: column;
+    width: 100%;
+}
+.activity__text1{
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+    font-size: 30px;
+}
+.activity__text2{
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.activity__text2::after{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 4px;
+    background: #F38281;
+    margin: 0 auto;
+    margin-top: 44px;
+    margin-bottom: 20px;
+}
+  .activity__titleItem {
+    text-align: center;
+    padding-bottom: 62px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .activity__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+  }
+  .activity__slideBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  .activity__slide {
+    min-width: 570px;
+  }
+  .activity__inputBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px 0px 19px;
+    border: 1px solid #c6cbcd;
+    min-height: 92px;
+  }
+  .activity__input {
+    display: none;
+  }
+  .activity__inputItem {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #2d3033;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .activity__input:checked + .activity__text {
+    height: 160px;
+    padding: 15px 10px 0px 22px;
+  }
+  .activity__text {
+    overflow: auto;
+    transition: 0.3s;
+    height: 0px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2d3033;
+    border: 1px solid #c6cbcd;
+    border-top: none;
+  }
+  .activity__text::-webkit-scrollbar {
+    width: 7px;
+    background-color: #f9f9fd;
+  }
+  
+  .activity__text::-webkit-scrollbar-thumb {
+    background-color: #95e1d3;
+  }
+  
+  .activity__text::-webkit-scrollbar-track {
+   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9fd;
+  }
+
+  @media (max-width:1024px){
+    .activity__titleItem, .activity__text{
+      font-size: 14px;
+    line-height: 16px;
+    }
+    .activity__slide{
+     min-width: 486px; 
+    }
+    .activity__content{
+      gap: 20px;
+    }
+    .activity__inputItem{
+      font-size: 18px;
+line-height: 21px;
+    }
+  }

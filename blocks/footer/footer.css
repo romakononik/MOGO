@@ -1,0 +1,116 @@
+.footer{
+    width: 100%;
+    font-family: 'Raleway';
+    background: #F8F8F8;
+    padding-top: 80PX;
+
+
+}
+.footer__container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.footer__text{
+    border-bottom: 1px solid #C6CBCD;
+}
+.footer__item{
+}
+.footer__description{
+    color: #C6CBCD;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 50px 0px 50px;
+}
+.footer__subscribers{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.footer__subscribersNumber{
+    font-weight: 800;
+    font-size: 36PX;
+}
+.footer__follow{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer__icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer__email{
+    display: flex;
+    margin-top: 11px;
+}
+.footer__form{
+    border: 1px solid #C6CBCD;
+    width: 60%;
+    text-align: center;
+    height: 55px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.footer__buttom{
+    background: #95E1D3;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    border: 0PX;
+    height: 59px;
+    width: 40%;
+}
+.footer__item1{ 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer__nameList{
+    font-weight: 700;
+font-size: 24px;
+margin-bottom: 20px;
+}
+.footer__column{
+    display: flex;
+    gap: 30px;
+}
+.footer__columnText{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer__columnDate{
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: lowercase;
+    
+}
+.footer__item2{
+}
+.footer_img{
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: 1FR 1FR 1FR;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.footer__seeAll{
+    margin-top: 25px;
+    font-weight: 400;
+font-size: 13px;
+color: #2D3033;
+    text-transform: uppercase;
+}
+.footer__title{
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    border-top: 1px solid #C6CBCD;
+    padding-top: 30px;
+}

@@ -1,0 +1,121 @@
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Raleway";
+    margin-top: 80PX;
+
+  }
+  .blog__upperTextFirs {
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+    font-size: 30px;  
+}
+  .blog__upperTextSecond {
+    font-family: "Raleway";
+    font-weight: 900;
+    font-size: 36px;
+    margin-top: 50px;
+  }
+  .blog__upperTextSecond::after{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 4px;
+    background: #F38281;
+    margin: 0 auto;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+  .blog__column {
+    display: flex;
+    gap: 30px;
+  }
+   
+  .blog__picture {
+    position: relative;
+  }
+  
+  .blog__date {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #95e1d3;
+    bottom: 25px;
+    left: -14px;
+  }
+  .blog__dateNumber {
+    /* /.вставить шрифт./ */
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .blog__date {
+    /* /.вставить шрифт./ */
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 500;
+    gap: 5px;
+  }
+  .blog__header {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .blog__footer {
+    gap: 40px;
+    display: flex;
+    margin-top: 38px;
+  }
+  .blog__footerItem {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .blog__footerDown{
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url("./navigation.png") center no-repeat;
+      height: 231px;
+      width: 100%;
+      background-size: cover;
+      position: relative;
+      margin-top: 90px;
+  }
+  .blog__footerColumn{
+      width: 100%;
+      position: absolute;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .blog__footerText{
+      text-transform: uppercase;
+      font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        color: #F38281;
+        margin-top: 20px;
+  }
+  .blog__footerText::after{    
+    content: "";
+    width: 170px;
+    height: 4px;
+    background: #f38281;
+    margin: 44px auto 20px;
+    display: block;}
+
+@media screen and (max-width:1024px) {
+    .blog__column{
+        gap:15px ;
+    }
+    
+}

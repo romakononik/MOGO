@@ -1,0 +1,31 @@
+.upperTitle{
+    display: flex;
+    align-items: center;  
+    flex-direction: column;
+    width: 100%;
+}
+.upperTitle__text1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.upperTitle__text2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.upperTitle__text2::after{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 4px;
+    background: #F38281;
+    margin: 0 auto;
+    margin-top: 44px;
+    margin-bottom: 20px;
+}

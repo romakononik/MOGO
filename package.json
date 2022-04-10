@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "parcel": "^2.4.1",
+    "reset-css": "^5.0.1"
+  },
+  "devDependencies": {
+    "sharp": "^0.29.3"
+  }
+}

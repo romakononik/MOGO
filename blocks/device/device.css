@@ -1,0 +1,65 @@
+.device{
+    width: 100%;
+    height: 868px;
+    background:  linear-gradient(360deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 100%), url("./device.png") center no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80PX;
+
+}
+.device__blocks{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.device__text{
+    display: flex;
+    align-items: center;  
+    flex-direction: column;
+    width: 100%;
+}
+.device__upperText{
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+    font-size: 30px;
+}
+.device__header{
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.device__header::after{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 4px;
+    background: #F38281;
+    margin: 0 auto;
+    margin-top: 44px;
+    margin-bottom: 75px;
+}
+.device__pictureList{
+    position: relative;
+}
+.device__pictureFirst{
+    border: 25px solid black;
+    border-radius: 20px;
+}
+.device__phone{
+    position: absolute;
+    right: -34px;
+    bottom: -55px;
+}
+.device__ramka{
+    position: absolute;
+    width: 199.89px;
+    height: 411.66px;
+    right: -36px;
+    bottom: -70px;
+}

@@ -1,0 +1,114 @@
+.aboutTeam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-top: 80PX;
+
+
+}
+.aboutTeam__text{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+
+}
+.aboutTeam__text2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 36px;
+}
+.aboutTeam__text2::after{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 4px;
+    background: #F38281;
+    margin: 0 auto;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+.aboutTeam__text3{
+    text-align: center;
+    font-size: 18px;
+
+}
+.aboutTeam__block{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.aboutTeam__blockPerson{
+    display: flex;
+    flex-direction: column;
+}
+.aboutTeam__cover{
+    position: relative;
+}
+.aboutTeam__coverItem{
+    display: none;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+}
+.aboutTeam__cover:hover .aboutTeam__coverItem{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutTeam__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+.aboutTeam__descriptionName{
+    font-weight: 700;
+    font-size: 24px;
+    margin: 25px 0px 30px;
+}
+.aboutTeam__coverIcon{
+    transition: 0.3s ;
+
+}
+.aboutTeam__coverLink{
+    transition: 0.3s ;
+
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+
+    width: 42px;
+    height: 42px;
+    background: #F9EFCF;
+}
+.aboutTeam__coverLink:hover,.aboutTeam__coverLink:hover .aboutTeam__coverIcon{
+    background:#F38281;
+    fill: white;
+
+}
+.aboutTeam__footer{
+    height: 211px;
+    width: 100%;
+    background: #F8F8F8;
+    margin-top: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+@media screen and (max-width:1024px) {
+    .aboutTeam__block{
+        gap: 15px;
+    }
+    
+}
